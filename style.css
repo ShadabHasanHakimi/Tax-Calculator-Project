@@ -1,9 +1,20 @@
+body{
+    background-color:  #ECEFF1;
+}
+
 .container{
     width: 40%;
     height: 40%;
     padding: 0rem 3rem 2rem 3rem;
     border: 1px solid rgba(0, 0, 0, 0.221);
     margin-top: 10rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    background-color: #f5f5f5;
+}
+
+#submitButton, #closeBtn{
+    background-color: #ea445a;
 }
 
 h1{
