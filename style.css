@@ -1,0 +1,62 @@
+.container{
+    width: 40%;
+    height: 40%;
+    padding: 0rem 3rem 2rem 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    margin-top: 10rem;
+}
+
+h1{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group{
+    margin-top: 0.85rem;
+}
+
+input::placeholder{
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+
+.submit{
+    margin-top: 3rem;
+}
+
+i{
+    opacity: 0.5;
+}
+
+.h3{
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal-body{
+    padding: 3rem 5rem 0 5rem;
+    border: 1px solid (0, 0, 0, 0.221);
+    border-top-left-radius: 0.44rem;
+    border-top-right-radius: 0.44rem;
+    border-bottom: none;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    border: 1px solid (0, 0, 0, 0.221);
+    border-top: none;
+    margin-bottom: 2rem;
+}
+
+@media(width<=1000px){
+    .container{
+        width: 60%;
+        height: 60%;
+        padding: 0rem 3rem 2rem 3rem;
+        border: 1px solid rgba(0, 0, 0, 0.221);
+        margin-top: 10rem;
+    }
+}
